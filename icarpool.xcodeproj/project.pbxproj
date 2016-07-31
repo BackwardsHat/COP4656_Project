@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692917361D47CB4800B7C3CB /* PassengerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 692917351D47CB4800B7C3CB /* PassengerDetailViewController.m */; };
+		6948BC2D1D47E46700FF2D04 /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6948BC2C1D47E46700FF2D04 /* CreateUserViewController.m */; };
+		697631F11D40015200BCDE13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697631F01D40015200BCDE13 /* MapKit.framework */; };
+		69BD42431D4132E700411567 /* testLocation.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 69BD42421D4132E700411567 /* testLocation.gpx */; };
+		69BD42481D41557F00411567 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BD42471D41557F00411567 /* MapViewController.m */; };
+		69BD424B1D41563A00411567 /* LocationModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BD424A1D41563A00411567 /* LocationModels.m */; };
+		69BD424E1D41676400411567 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BD424D1D41676400411567 /* SettingsViewController.m */; };
 		69C71FF41D3EC17900F4E906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C71FF31D3EC17900F4E906 /* main.m */; };
 		69C71FF71D3EC17900F4E906 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C71FF61D3EC17900F4E906 /* AppDelegate.m */; };
-		69C71FFA1D3EC17900F4E906 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C71FF91D3EC17900F4E906 /* ViewController.m */; };
+		69C71FFA1D3EC17900F4E906 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C71FF91D3EC17900F4E906 /* LoginViewController.m */; };
 		69C71FFD1D3EC17900F4E906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C71FFB1D3EC17900F4E906 /* Main.storyboard */; };
 		69C71FFF1D3EC17900F4E906 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C71FFE1D3EC17900F4E906 /* Images.xcassets */; };
 		69C720021D3EC17900F4E906 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C720001D3EC17900F4E906 /* LaunchScreen.xib */; };
@@ -27,13 +34,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		692917341D47CB4800B7C3CB /* PassengerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerDetailViewController.h; sourceTree = "<group>"; };
+		692917351D47CB4800B7C3CB /* PassengerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerDetailViewController.m; sourceTree = "<group>"; };
+		6948BC2B1D47E46700FF2D04 /* CreateUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateUserViewController.h; sourceTree = "<group>"; };
+		6948BC2C1D47E46700FF2D04 /* CreateUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateUserViewController.m; sourceTree = "<group>"; };
+		697631F01D40015200BCDE13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		69BD42421D4132E700411567 /* testLocation.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testLocation.gpx; sourceTree = "<group>"; };
+		69BD42461D41557F00411567 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		69BD42471D41557F00411567 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		69BD42491D41562300411567 /* LocationModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationModels.h; sourceTree = "<group>"; };
+		69BD424A1D41563A00411567 /* LocationModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModels.m; sourceTree = "<group>"; };
+		69BD424C1D41676400411567 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		69BD424D1D41676400411567 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		69C71FEE1D3EC17900F4E906 /* icarpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icarpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C71FF21D3EC17900F4E906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69C71FF31D3EC17900F4E906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		69C71FF51D3EC17900F4E906 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		69C71FF61D3EC17900F4E906 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		69C71FF81D3EC17900F4E906 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		69C71FF91D3EC17900F4E906 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69C71FF81D3EC17900F4E906 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		69C71FF91D3EC17900F4E906 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		69C71FFC1D3EC17900F4E906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69C71FFE1D3EC17900F4E906 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		69C720011D3EC17900F4E906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697631F11D40015200BCDE13 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +80,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		693BA3241D453A0E00D2715F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69BD42491D41562300411567 /* LocationModels.h */,
+				69BD424A1D41563A00411567 /* LocationModels.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		693BA3251D453AC900D2715F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6948BC2B1D47E46700FF2D04 /* CreateUserViewController.h */,
+				6948BC2C1D47E46700FF2D04 /* CreateUserViewController.m */,
+				69C71FF81D3EC17900F4E906 /* LoginViewController.h */,
+				69C71FF91D3EC17900F4E906 /* LoginViewController.m */,
+				69BD424C1D41676400411567 /* SettingsViewController.h */,
+				69BD424D1D41676400411567 /* SettingsViewController.m */,
+				69BD42461D41557F00411567 /* MapViewController.h */,
+				69BD42471D41557F00411567 /* MapViewController.m */,
+				692917341D47CB4800B7C3CB /* PassengerDetailViewController.h */,
+				692917351D47CB4800B7C3CB /* PassengerDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		69C71FE51D3EC17900F4E906 = {
 			isa = PBXGroup;
 			children = (
+				69BD42421D4132E700411567 /* testLocation.gpx */,
+				697631F01D40015200BCDE13 /* MapKit.framework */,
 				69C71FF01D3EC17900F4E906 /* icarpool */,
 				69C7200A1D3EC17900F4E906 /* icarpoolTests */,
 				69C71FEF1D3EC17900F4E906 /* Products */,
@@ -83,11 +131,11 @@
 			children = (
 				69C71FF51D3EC17900F4E906 /* AppDelegate.h */,
 				69C71FF61D3EC17900F4E906 /* AppDelegate.m */,
-				69C71FF81D3EC17900F4E906 /* ViewController.h */,
-				69C71FF91D3EC17900F4E906 /* ViewController.m */,
+				693BA3251D453AC900D2715F /* View Controllers */,
 				69C71FFB1D3EC17900F4E906 /* Main.storyboard */,
 				69C71FFE1D3EC17900F4E906 /* Images.xcassets */,
 				69C720001D3EC17900F4E906 /* LaunchScreen.xib */,
+				693BA3241D453A0E00D2715F /* Models */,
 				69C71FF11D3EC17900F4E906 /* Supporting Files */,
 			);
 			path = icarpool;
@@ -168,6 +216,11 @@
 				TargetAttributes = {
 					69C71FED1D3EC17900F4E906 = {
 						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					69C720061D3EC17900F4E906 = {
 						CreatedOnToolsVersion = 6.2;
@@ -201,6 +254,7 @@
 			files = (
 				69C71FFD1D3EC17900F4E906 /* Main.storyboard in Resources */,
 				69C720021D3EC17900F4E906 /* LaunchScreen.xib in Resources */,
+				69BD42431D4132E700411567 /* testLocation.gpx in Resources */,
 				69C71FFF1D3EC17900F4E906 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C71FFA1D3EC17900F4E906 /* ViewController.m in Sources */,
+				69C71FFA1D3EC17900F4E906 /* LoginViewController.m in Sources */,
+				69BD42481D41557F00411567 /* MapViewController.m in Sources */,
 				69C71FF71D3EC17900F4E906 /* AppDelegate.m in Sources */,
+				69BD424E1D41676400411567 /* SettingsViewController.m in Sources */,
+				692917361D47CB4800B7C3CB /* PassengerDetailViewController.m in Sources */,
+				69BD424B1D41563A00411567 /* LocationModels.m in Sources */,
 				69C71FF41D3EC17900F4E906 /* main.m in Sources */,
+				6948BC2D1D47E46700FF2D04 /* CreateUserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +473,7 @@
 				69C720131D3EC17900F4E906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69C720141D3EC17900F4E906 /* Build configuration list for PBXNativeTarget "icarpoolTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +482,7 @@
 				69C720161D3EC17900F4E906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
